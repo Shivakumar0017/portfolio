@@ -1,0 +1,33 @@
+.educationContainer{
+    /* background: url("../../assets/edu.jpg"); */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.education__container{
+    border: 1px dotted white;
+    width:600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.education__container>h1{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+    color: yellow;
+}

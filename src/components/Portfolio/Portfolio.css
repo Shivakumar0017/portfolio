@@ -1,0 +1,30 @@
+.portfolio>img{
+    width: 350px;
+    height: 179px;
+}
+
+.portfolio{
+    margin: 15px;
+    width: 350px;
+    height: 179px;
+    transition: transform 100ms ease-in;
+}
+.portfolio:hover{
+    color:black;
+    background-color: yellow;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.portfolio__content{
+    padding: 10px;
+
+}
+.portfolio__content>h4{
+    padding-bottom: 5px;
+}
+.portfolio__content>p{
+    font-size: 15px;
+}
